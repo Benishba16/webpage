@@ -5,11 +5,16 @@ import './index.css';
 import Twozo from "./twozo";
 import {ThemeProvider} from "@mui/material";
 import { LightTheme } from './styles/twozo';
+import New from './New';
+// import Grid from './grid';
+// import Main from './main';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <ThemeProvider theme={LightTheme}>
-        <Twozo />
+        <New />
+        {/* <Main /> */}
+        {/* <Grid /> */}
     </ThemeProvider>
 );
 
