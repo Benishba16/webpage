@@ -1,18 +1,19 @@
 import React from 'react'
-import Something_image from "./assets/images/backgroundImage.png"
-import "./New.css"
+import BackgroundImage from "./assets/images/backgroundImage.png"
+// import "./New.css"
 
 function New() {
   return (
     <div
-        style={{
-            // border: "2px solid red",
-            // height: "50vh"
-        }}
+      style={{
+        backgroundImage: `url(${BackgroundImage})`,
+        width: "100vw",
+        height: "100vh",
+        backgroundRepeat: "no-repeat",
+        objectFit: "contain"
+      }}
     >
-     <div>
-        <img src={Something_image} alt="background_image"/>
-    </div>   
+
     </div>
   )
 }
