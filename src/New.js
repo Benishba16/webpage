@@ -11,7 +11,7 @@ function New() {
         backgroundImage: `url(${BackgroundImage})`,
         height: "100vh",
         backgroundRepeat: "no-repeat",
-        objectFit: "contain"
+        objectFit: "cover"
       }}
     >
       <Header />
