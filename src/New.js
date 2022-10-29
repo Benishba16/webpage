@@ -1,20 +1,31 @@
 import React from 'react'
 import BackgroundImage from "./assets/images/backgroundImage.png"
-// import "./New.css"
+import Header from './components/Header'
+import { Box, Stack } from "@mui/material"
+import Description from './components/Description'
 
 function New() {
   return (
-    <div
+    <Box
       style={{
         backgroundImage: `url(${BackgroundImage})`,
-        width: "100vw",
         height: "100vh",
         backgroundRepeat: "no-repeat",
         objectFit: "contain"
       }}
     >
-
-    </div>
+      <Header />
+      <Stack
+        sx={{
+          // float: "right",
+          position: "absolute",
+          right: "10%",
+          top: "35%"
+        }}
+      >
+          <Description />
+      </Stack>
+    </Box>
   )
 }
 
