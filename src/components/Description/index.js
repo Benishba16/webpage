@@ -56,7 +56,7 @@ export default function Description() {
                 <img src={illustartion_image} alt="illustrationImage" height="238px" width="288px"/>
             </Stack>
         </Stack>
-        <Stack spacing={2}>
+        <Stack spacing={2} mt={1}>
             <Typography style={styles.text3}>Get Notified When We Launch</Typography>
             <Stack
                 sx={{

@@ -17,6 +17,7 @@ function New() {
         objectFit: "cover"
       }}
     >
+      
       <Header />
       <Stack
         sx={{
