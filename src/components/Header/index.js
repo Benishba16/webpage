@@ -9,8 +9,9 @@ export default function Header() {
             direction="row"
             alignItems="center"
             justifyContent="flex-end"
-            pt={"45px"}
-            mr={"45px"}
+            // pt={"45px"}
+            // mr={"45px"}
+            p={2}
         >
             <Box>
                 <img src={LogoImage} alt='logo_image' height="82px" width="260px"/>
