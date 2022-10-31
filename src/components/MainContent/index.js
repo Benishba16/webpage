@@ -9,16 +9,18 @@ export default function MainContent() {
             direction="row"
             spacing={2}
             justifyContent="center"
+            // border="2px solid red"
+            mr={5}
         >
             <Stack p={1} spacing={3} direction="row" borderTop="7px solid #FFFFFF" borderBottom="7px solid #FFFFFF">
                 <Stack>
-                    <Typography color="white" fontSize="40px" fontWeight={700}>SOMETHING</Typography>
+                    <Typography color="white" fontSize="2.5em" fontWeight={700}>SOMETHING</Typography>
                 </Stack>
                 <Stack>
-                    <Typography color={theme.palette.primary.main} fontSize="40px" fontWeight={700}>AWESOME</Typography>
+                    <Typography color={theme.palette.primary.main} fontSize="2.5em" fontWeight={700}>AWESOME</Typography>
                 </Stack>
                 <Stack>
-                    <Typography fontSize="40px" fontWeight={700}>IS IN THE WORKS</Typography>
+                    <Typography fontSize="2.5em" fontWeight={700}>IS IN THE WORKS</Typography>
                 </Stack>
             </Stack>
         </Stack>

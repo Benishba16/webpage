@@ -12,7 +12,7 @@ const styles= {
         color: "#272937"
     },
     text3: {
-        fontSize: "48px",
+        fontSize: "3em",
         fontWeight: 700,
         color: "#272937"
     }
@@ -24,7 +24,8 @@ export default function Description() {
         <Stack
             direction="row"
             alignItems="flex-end"
-            spacing={5}
+            // spacing={5}
+            justifyContent="space-between"
             // style={{
             //     border: "2px solid red"
             // }}
@@ -52,7 +53,7 @@ export default function Description() {
                     <Typography>Soon</Typography>
                 </Stack>
             </Stack>
-            <Stack>
+            <Stack mr={10}>
                 <img src={illustartion_image} alt="illustrationImage" height="238px" width="288px"/>
             </Stack>
         </Stack>

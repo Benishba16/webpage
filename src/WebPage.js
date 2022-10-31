@@ -48,7 +48,7 @@ export default function WebPage() {
                     <Header />
                     <MainContent />
                     
-                    <Box sx={{ width: "68vw", float: "right" }}>
+                    <Box sx={{ width: "70vw", float: "right" }}>
                         <Description />
                     </Box>
                 </Box>
