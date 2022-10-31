@@ -48,9 +48,11 @@ export default function WebPage() {
                     <Header />
                     <MainContent />
                     
-                    <Box sx={{ width: "70vw", float: "right" }}>
-                        <Description />
-                    </Box>
+                    <Stack alignItems="flex-end">
+                        <Box sx={{ width: "70vw", float: "right"}}>
+                            <Description />
+                        </Box>
+                    </Stack>
                 </Box>
             </Box>
             

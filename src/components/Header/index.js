@@ -12,6 +12,7 @@ export default function Header() {
             // pt={"45px"}
             // mr={"45px"}
             p={2}
+            mr={5}
         >
             <Box>
                 <img src={LogoImage} alt='logo_image' height="82px" width="260px"/>
